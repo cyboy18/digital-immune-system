@@ -1,0 +1,16 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Logs and scan results
+DigitalImmuneLogs/
+scan_results.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
