@@ -1,4 +1,0 @@
-requests
-androguard
-yara-python
-watchdog
