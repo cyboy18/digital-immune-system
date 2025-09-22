@@ -27,3 +27,5 @@ An in-depth paragraph about your project and a general overview of how it works 
 ```bash
 git clone https://github.com/yourusername/yourproject.git
 cd yourproject
+
+### Installing
