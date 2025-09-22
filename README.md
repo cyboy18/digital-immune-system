@@ -67,10 +67,13 @@ All scans are logged with timestamps for auditing and research.
 ### Installing
 
 
-# Clone the repository
+### Clone Repository
 
-1. git clone https://github.com/cyboy18/digital-immune-system.git
-2. cd digital-immune-system
+```bash
+git clone https://github.com/cyboy18/digital-immune-system.git
+
+cd digital-immune-system
+
 
 
 # Setup Python environment and Create a virtual environment
