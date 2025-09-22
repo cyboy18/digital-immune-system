@@ -66,48 +66,47 @@ All scans are logged with timestamps for auditing and research.
 
 ### Installing
 
-Clone the repository:
-
-```bash
+# -------------------------
+# Clone the repository
+# -------------------------
 git clone https://github.com/cyboy18/digital-immune-system.git
 cd digital-immune-system
 
 # -------------------------
-# Setup Environment
+# Setup Python environment
 # -------------------------
 
-# Create virtual environment
+# Create a virtual environment
 python -m venv venv
 
-# Activate on Linux/Mac
+# Activate the environment
+# Linux / Mac
 source venv/bin/activate
-
-# Activate on Windows (PowerShell)
+# Windows (PowerShell)
 venv\Scripts\activate
 
 # -------------------------
-# Install Dependencies
+# Install dependencies
 # -------------------------
-
 pip install -r requirements.txt
 
 # -------------------------
 # Executing Program
 # -------------------------
 
-# File Hash Scan
+# 1. File Hash Scan
 python disimmune.py scan-hash <file_path>
 
-# APK Permission Scan
+# 2. APK Permission Scan
 python disimmune.py scan-apk <apk_path>
 
-# URL Phishing Check
+# 3. URL Phishing Check
 python disimmune.py check-url <url>
 
-# Folder Watcher
+# 4. Folder Watcher
 python disimmune.py watch <folder_path> --interval 5
 
-# Quarantine Management
+# 5. Quarantine Management
 python disimmune.py quarantine-list
 python disimmune.py quarantine-restore <filename> --restore-dir <path>
 
@@ -115,12 +114,8 @@ python disimmune.py quarantine-restore <filename> --restore-dir <path>
 # Logging & Results
 # -------------------------
 
-# All results are saved in:
+# All scan results are saved in:
 DigitalImmuneLogs/Scanned_Results
 
 # Example result filename:
 Wireshark_exe_21-09-2025_214500.txt
-
-
-
-
