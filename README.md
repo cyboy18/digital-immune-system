@@ -64,23 +64,18 @@ All scans are logged with timestamps for auditing and research.
 
 ---
 
-### Installing
+### Installation
 
+After installing both applications above, open `Termux` and follow the steps below -
 
-### Clone Repository
-
-# Clone repository
-```bash
+- Update termux packages and install `git`
+```
+pkg upgrade && pkg install git
+```
+- Clone this repository
+```
 git clone https://github.com/cyboy18/digital-immune-system.git
-
+```
+```
 cd digital-immune-system
-
-### Setup Python environment
-python -m venv venv
-
-# Linux / Mac
-source venv/bin/activate
-
-# Windows (PowerShell)
-venv\Scripts\activate
-
+```
