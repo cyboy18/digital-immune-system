@@ -72,10 +72,12 @@ After installing both applications above, open `Termux` and follow the steps bel
 ```
 pkg upgrade && pkg install git
 ```
-- Clone this repository
+- Clone this and enter the repository
 ```
 git clone https://github.com/cyboy18/digital-immune-system.git
-```
-```
 cd digital-immune-system
+```
+- Setup Python environment
+```
+python -m venv venv
 ```
