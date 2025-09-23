@@ -66,7 +66,7 @@ All scans are logged with timestamps for auditing and research.
 
 ### Installation
 
-After installing both applications above, open `Termux` and follow the steps below -
+After installing open `Termux` and follow the steps below -
 
 - Update termux packages and install `git`
 ```
@@ -80,4 +80,10 @@ cd digital-immune-system
 - Setup Python environment
 ```
 python -m venv venv
+```
+```
+source venv/bin/activate
+```
+---
+pip install -r requirements.txt
 ```
